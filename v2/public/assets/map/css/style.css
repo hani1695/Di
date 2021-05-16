@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+#map {
+  position: absolute;
+  width: 100%;
+  height: 93%;
+  top: 60px;
+}
+
+#map:focus {
+  outline: #4A74A8 solid 0.15em;
+}
+
+.control {
+  position: relative;
+  left: .5em;
+  top: calc(-100vh + 2em + .5em);
+} 
+.ol-control button{ 
+    width: 1.5625em;
+    height: 1.5625em;
+    background-color: rgba(40, 40, 40, 0.8) !important;
+
+}
+.ol-control button:hover{ 
+    background-color: rgba(40, 40, 40, 1) !important;
+}
+
+.ol-overviewmap {
+  margin-bottom: 25px;
+}
+
+#layer-select{
+  right: 50px;
+  bottom: 8px;
+  /*background: #6a90b6;
+  color: white;  */
+}
+
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.layer-switcher .panel {
+  line-height: 2;
+}
+
+.ol-geocoder ul.gcd-gl-result>li {
+  padding: 5px;
+  line-height: 1.2rem;
+}
